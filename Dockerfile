@@ -10,7 +10,7 @@ WORKDIR /usr/src/app
 # On exécute la construction de l'application avec Maven
 RUN mvn clean install
 
-# On démarre l'application 
+# On démarre l'application à partir du fichier .jar généré
 CMD ["java", "-jar", "target/mymvnproject-1.0-SNAPSHOT.jar"]
 
 
