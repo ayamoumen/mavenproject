@@ -11,5 +11,6 @@ WORKDIR /usr/src/app
 RUN mvn clean install
 
 # On démarre l'application 
-CMD ["java", "-jar", "target/votre-application.jar"]
+CMD ["java", "-jar", "target/mymvnproject-1.0-SNAPSHOT.jar"]
+
 
